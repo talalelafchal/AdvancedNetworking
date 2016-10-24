@@ -5,6 +5,8 @@ public class Edge {
     String x;
     String y;
     int capacity;
+    Node nodex;
+    Node nodey;
 
     public Edge(String x, String y, int capacity) {
         this.x = x;
@@ -24,5 +26,19 @@ public class Edge {
         return capacity;
     }
 
+    public void setNodex(Node nodex) {
+        this.nodex = nodex;
+    }
 
+    public Node getNodex() {
+        return nodex;
+    }
+
+    public Node getNodey() {
+        return nodey;
+    }
+
+    public void setNodey(Node nodey) {
+        this.nodey = nodey;
+    }
 }

@@ -1,0 +1,27 @@
+router
+#name	city	latitude	longitude
+N0	Atlanta_GA	33.750000	-84.383300
+N1	Atlanta_GA	33.750000	-84.383300
+N2	Chicago_IL	41.833300	-87.616700
+N3	Denver_CO	40.750000	-105.000000
+N4	Houston_TX	29.770031	-95.517364
+N5	Indianapolis_IN	39.780622	-86.159535
+N6	Kansas_City_MO	38.961694	-96.596704
+N7	Los_Angeles_CA	34.050000	-118.250000
+N8	New_York_NY	40.783300	-73.966700
+link
+#capacity on 4/10/2003 (see page 20 of http://www.internet2.edu/presentations/spring03/20030410-Abilene-Corbato.pdf)
+#OSPF weight on 04/10/2003 (see http://www.abilene.iu.edu/images/Ab-IGP-topo.jpg)
+#x	y	capacity(kbps)	OSPF
+N0 N2 10 1
+N1 N2 10 1
+N2 N3 10 1
+N2 N6 10 1
+N3 N4 10 1
+N4 N5 10 1
+N5 N7 10 1
+N5 N8 10 1
+N6 N5 10 1
+
+  P_flow_ATLAATLA_M5_2: - flow_ATLAATLA_M5_CHIN_IPLS - flow_ATLAATLA_M5_CHIN_NYCM +
+  flow_ATLAATLA_M5_IPLS_CHIN + flow_ATLAATLA_M5_NYCM_CHIN = 0

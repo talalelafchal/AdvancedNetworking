@@ -1,0 +1,230 @@
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:26:29 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 5
+Malformed term in expression
+Neighboring tokens: " + flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng+ flow_ATLA-M5_ATLAng_HSTNng_ATLAng+ "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:26:37 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 5
+Malformed term in expression
+Neighboring tokens: " + flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng+ flow_ATLA-M5_ATLAng_HSTNng_ATLAng+ "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:29:07 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 4
+Malformed term in expression
+Neighboring tokens: " + = 195828 R_flow_ATLA-M5_ATLAng: flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:29:32 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 4
+Malformed term in expression
+Neighboring tokens: " + = 195828 R_flow_ATLA-M5_ATLAng: flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:30:18 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 270
+Malformed term in expression
+Neighboring tokens: " - flow_ATLA-M5_ATLAng_CHINng_IPLSng- flow_ATLA-M5_ATLAng_CHINng_NYCMng+ "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:33:09 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 280
+Malformed term in expression
+Neighboring tokens: " + flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng=0 P_flow_ATLA-M5_CHINng_0: "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:35:08 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 1761
+Unrecognized variable bound
+Neighboring tokens: " flow_ATLA-M5_ATLAng_ATLA-M5_ATLAng>=0 flow_ATLA-M5_ATLAng_ATLAng_ATLA-M5>=0 "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:36:05 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+Error reading LP format file maxFlow.lp at line 5717
+Unrecognized variable bound
+Neighboring tokens: " z>=0 End "
+
+
+ERROR 10012: Unable to read file
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 00:36:15 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+WARNING: Numeric variable name in LP file ('0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file maxFlow.lp
+Reading time = 0.02 seconds
+(null): 1746 rows, 3962 columns, 12114 nonzeros
+Optimize a model with 1746 rows, 3962 columns and 12114 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+04, 5e+07]
+Presolve removed 290 rows and 290 columns
+Presolve time: 0.02s
+Presolved: 1456 rows, 3672 columns, 10758 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.703794e+09   0.000000e+00      0s
+    1010    1.3353337e+08   0.000000e+00   0.000000e+00      0s
+
+Solved in 1010 iterations and 0.05 seconds
+Optimal objective  1.335333660e+08
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:03:44 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'maxFlow_0' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:08:50 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'maxFlow_0' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:16:13 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'maxFlow_0' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:18:30 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file '\flowOUTPUT\maxFlow_0' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:20:14 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file 'flowOutPut\maxFlow_0' for input
+
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:21:17 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+WARNING: Numeric variable name in LP file ('0') - often the result
+         of a constant term in the left-hand side of a constraint.
+
+Read LP format model from file /Users/Talal/GoogleDrive/Corsi/Master/3rdSemester/AdvancedNetworking/Assignment/A01/flowOutPut/maxFlow_0.lp
+Reading time = 0.02 seconds
+(null): 1746 rows, 3962 columns, 12114 nonzeros
+Optimize a model with 1746 rows, 3962 columns and 12114 nonzeros
+Coefficient statistics:
+  Matrix range    [1e+00, 1e+00]
+  Objective range [1e+00, 1e+00]
+  Bounds range    [0e+00, 0e+00]
+  RHS range       [1e+04, 5e+07]
+Presolve removed 290 rows and 290 columns
+Presolve time: 0.01s
+Presolved: 1456 rows, 3672 columns, 10758 nonzeros
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+       0    0.0000000e+00   2.703794e+09   0.000000e+00      0s
+    1010    1.3353337e+08   0.000000e+00   0.000000e+00      0s
+
+Solved in 1010 iterations and 0.04 seconds
+Optimal objective  1.335333660e+08
+
+Gurobi 6.5.2 (mac64) logging started Mon Oct 24 02:22:08 2016
+
+
+Gurobi Optimizer version 6.5.2 build v6.5.2rc1 (mac64)
+Copyright (c) 2016, Gurobi Optimization, Inc.
+
+
+ERROR 10003: Unable to open file '/Users/Talal/GoogleDrive/Corsi/Master/3rdSemester/AdvancedNetworking/Assignment/A01/flowOutPut/maxFlow_0.lp >> a.txt' for input
+
